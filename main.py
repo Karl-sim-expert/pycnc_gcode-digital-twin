@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 
 import os
 import sys
@@ -15,8 +15,12 @@ except NameError:
     # noinspection PyShadowingBuiltins
     raw_input = input
 
+
 # configure history file for interactive mode
-history_file = os.path.join(os.environ['HOME'], '.pycnc_history')
+# 24.09.07 change the directory for storage 
+curr_dir = os.getcwd()
+his_dir = os.path.join(curr_dir, 'history')
+history_file = os.path.join(his_dir, '.pycnc_history')
 try:
     readline.read_history_file(history_file)
 except IOError:
