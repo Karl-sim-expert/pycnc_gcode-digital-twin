@@ -52,5 +52,7 @@ The mapped animation motion can be simulated as shown in the video below.
 
 https://github.com/user-attachments/assets/602fd915-4369-437e-88f5-aa0150cd191e
 
+# License 
 
-
+for original pyCNC : https://github.com/Karl-sim-expert/pycnc_gcode-digital-twin/blob/main/LICENSE%20for%20original%20pyCNC
+for modified part : https://github.com/Karl-sim-expert/pycnc_gcode-digital-twin/blob/main/LICENSE%20for%20modified%20part
